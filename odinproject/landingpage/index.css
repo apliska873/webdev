@@ -1,0 +1,51 @@
+* {
+  font-family: "Roboto", sans-serif;
+  background-color: #1f2937;
+}
+
+body {
+  padding: 4px 100px;
+}
+
+div {
+  padding: 4px 0px;
+}
+
+body,
+.content {
+  color: white;
+}
+
+header,
+.links {
+}
+
+button {
+  font-weight: bold;
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 40px;
+  border-radius: 2px;
+}
+
+.edge {
+  background: #1f2937;
+  color: white;
+}
+
+.edge,
+.top {
+  padding-bottom: 50px;
+}
+
+.hero {
+  color: white;
+}
+
+.hero.title {
+  font-size: 48px;
+}
+
+.hero.sub {
+  font-size: 18px;
+}
