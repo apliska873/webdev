@@ -2,7 +2,6 @@
 CSS: Cascading Style Sheets
 grouped styles are a ruleset or css rule
 selector: div.bolt-text
-property: font-weight, color, height
 value: 700, red, 200px
 declaration: "font-weight: 700;"
 
@@ -37,15 +36,14 @@ select elements that are children of the "ancestor" class but also have the "con
 
 */
 
-
 /* universal selector */
 * {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 /* type selector */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ========== CHALLENGE 1 ========== //
@@ -58,15 +56,15 @@ body {
 */
 
 img {
-    width: 200px;
+  width: 200px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 h1 {
-    color: darkred;
+  color: darkred;
 }
 
 /*
@@ -74,23 +72,22 @@ class selector
 css class: attribute used to define a group of html elements in order to apply unique styling to those elements
 */
 
-
 /* ========== CHALLENGE 2 ========== //
 //
-// 1. Style the recipe card so that it has a 
+// 1. Style the recipe card so that it has a
 //      -- background color of #FFFAFA
 //      -- text is aligned center
 // 2. Set text inside recipe-content to align left
 //
 */
 .recipe-card {
-    width:400px;
-    background-color: #FFFAFA;
-    text-align: center;
+  width: 400px;
+  background-color: #fffafa;
+  text-align: center;
 }
 
 .recipe-content {
-    text-align: left;
+  text-align: left;
 }
 /*
 Not limited to a single class, as elements can have multiple
@@ -99,26 +96,26 @@ Not limited to a single class, as elements can have multiple
 /* can also use element id with #
     id's must be unique. you shouldn't use them for styling */
 #container {
-    border: 1px solid red;
+  border: 1px solid red;
 }
 
 /* can also group selectors */
 h2,
 a {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-/* can chain selectors 
+/* can chain selectors
     this style will only affect elements with both classes in them*/
 .recipe-card.feature {
-    border: 2px solid darkred;
+  border: 2px solid darkred;
 }
 
 /* adding a class in front of the elements makes those declarations
  only apply to elements that are inside of that specified class */
 .recipe-card h2,
 .recipe-card a {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /* ========== CHALLENGE 3 ========== //
@@ -130,15 +127,15 @@ a {
 //      -- remove underline
 */
 ul li h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .recipe-card a {
-    background-color: #fc9400;
-    color: white;
-    text-decoration: none;
+  background-color: #fc9400;
+  color: white;
+  text-decoration: none;
 }
 
 .container {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
